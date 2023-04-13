@@ -6,7 +6,6 @@ const Celular = require('./celular');
 // CRIAR CELULAR
 async function criarCelular() {
   const celular = {};
-  celular.ID = prompt('ID: ');
   celular.marca = prompt('Marca: ');
   celular.modelo = prompt('Modelo: ');
   celular.preco = parseFloat(prompt('Preço: '));
