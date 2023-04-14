@@ -2,7 +2,7 @@ const sequelize = require('sequelize');
 const Sequelize = require('sequelize');
 const database = require('./link_bd');
 
-const Celular = database.define('Celular', {
+const Celular = database.define('celulares', {
     ID: {
         type: sequelize.STRING,
         allownNull: false,
